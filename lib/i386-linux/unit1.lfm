@@ -1,0 +1,21 @@
+object Form1: TForm1
+  Left = 230
+  Height = 240
+  Top = 132
+  Width = 320
+  Caption = 'Form1'
+  LCLVersion = '1.4.0.4'
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Connected = True
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'TugasPD'
+    User = 'root'
+    Password = 'hendra123'
+    Protocol = 'mysql-5'
+    left = 56
+    top = 40
+  end
+end
